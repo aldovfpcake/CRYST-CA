@@ -1,0 +1,8 @@
+SELECT Asiedet.fecha, Asiedet.cuenta, Asiedet.haber, Asiedet.secuen,;
+  Asiedet.nrogen;
+ FROM ;
+     asiedet;
+ WHERE (  Asiedet.fecha >= ( vvfecha1 );
+   AND  Asiedet.fecha <= ( vvfecha2 ) );
+   AND  Asiedet.cuenta = ( "211050050" );
+ INTO TABLE F:\aldo\certi\reten.dbf  

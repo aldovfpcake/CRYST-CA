@@ -1,0 +1,6 @@
+SELECT Csop.fecha, Csop.cuenta_a, Csop.nro, Csop.haber,;
+  SUM(Csop.importe) AS timporte;
+ FROM ;
+     csop;
+ GROUP BY Csop.fecha, Csop.nro, Csop.cuenta_a, Csop.haber;
+ INTO TABLE f:\aldo\certi\opimporte.dbf  

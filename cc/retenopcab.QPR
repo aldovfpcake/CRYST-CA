@@ -1,0 +1,7 @@
+SELECT E.fecha, E.cuenta, E.haber, Opcab.resum, Opcab.cuenta, Opcab.nro;
+ FROM reten E,;
+   reten E INNER JOIN opcab;
+    INNER JOIN reten E ;
+   ON  E.fecha = Opcab.fechaemi ;
+   ON  E.secuen = Opcab.secuen;
+ INTO TABLE ropcab.dbf

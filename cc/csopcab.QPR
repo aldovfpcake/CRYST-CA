@@ -1,0 +1,12 @@
+SELECT DISTINCT Reten.fecha, Reten.cuenta, Reten.haber, Reten.secuen,;
+  Opcab.resum, Opcab.nro, Opcab.cuenta, Opdet.nro AS opnro, Opdet.cuenta,;
+  Opdet.importe, Opcab.anulado, (Opdet.importe-Opdet.importe) AS zona;
+ FROM ;
+     reten ;
+    INNER JOIN opcab ;
+   ON  Reten.fecha = Opcab.fechaemi;
+   AND  Reten.secuen = Opcab.secuen ;
+    INNER JOIN opdet ;
+   ON  Opcab.nro = Opdet.nro;
+ WHERE  Opdet.signo = ( "D" );
+ INTO TABLE F:\ALDO\CERTI\CSOP  
